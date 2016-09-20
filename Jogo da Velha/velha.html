@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title>Jogo da Velha</title>
+	<link rel="stylesheet" type="text/css" href="velha.css">
+	
+</head>
+<body>
+<div>
+
+	<div id="jogo">
+
+		<div >
+			<div id="casa1" class="casa" onclick="jogar(casa1)"></div>
+			<div id="casa2" class="casa" onclick="jogar(casa2)"></div>
+			<div id="casa3" class="casa" onclick="jogar(casa3)"></div>
+		</div>
+
+		<div>
+			<div id="casa4" class="casa" onclick="jogar(casa4)"></div>
+			<div id="casa5" class="casa" onclick="jogar(casa5)"></div>
+			<div id="casa6" class="casa" onclick="jogar(casa6)"></div>
+		</div>
+
+		<div>
+			<div id="casa7" class="casa" onclick="jogar(casa7)"></div>
+			<div id="casa8" class="casa" onclick="jogar(casa8)"></div>
+			<div id="casa9" class="casa" onclick="jogar(casa9)"></div>
+		</div>
+	</div>
+
+	<div id="placar">
+			<h1>PLACAR</h1>
+			<p> Jogador X: <span id="x"> 0 </span></p>
+			<p> Jogador O: <span id="o"> 0 </span></p>
+			<p> Empates: <span id="e"> 0 </span></p>
+	</div>
+</div>
+
+<script type="text/javascript" src="velha.js"></script>
+
+</body>
+</html>
